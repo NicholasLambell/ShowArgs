@@ -10,15 +10,7 @@ namespace ShowArgs {
         private static void Main() {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-
-            //Get start arguments
-            string[] args = Environment.GetCommandLineArgs();
-
-            //Join args array entries with double new line character
-            string message = String.Join("\n\n", args);
-
-            //Display message box
-            MessageBox.Show(message, "Start Arguments");
+            Application.Run(new FormMain());
         }
     }
 }
