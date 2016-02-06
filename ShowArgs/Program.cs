@@ -19,8 +19,6 @@ namespace ShowArgs {
 
             //Display message box
             MessageBox.Show(message, "Start Arguments");
-
-            //Application.Run(new Form1());
         }
     }
 }
