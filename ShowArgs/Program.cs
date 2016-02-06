@@ -14,8 +14,8 @@ namespace ShowArgs {
             //Get start arguments
             string[] args = Environment.GetCommandLineArgs();
 
-            //Join args array entries with new line character
-            string message = String.Join("\n", args);
+            //Join args array entries with double new line character
+            string message = String.Join("\n\n", args);
 
             //Display message box
             MessageBox.Show(message, "Start Arguments");
